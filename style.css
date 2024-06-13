@@ -60,3 +60,21 @@ a:hover {
     cursor: default;
     /*to prevent look as text*/
 }
+
+#h-nav {
+    display: none;
+}
+
+.h-menu {
+    position: relative;
+    display: inline-block;
+}   
+
+.h-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
