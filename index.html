@@ -1,44 +1,54 @@
-<!DOCTYPE html>
+<!DOCTYPE html>/
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="media.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"/>
+      <link rel="stylesheet" href="style.css">
+    <title>Dastan's Portfolio</title>
   </head>
-
-
   <body>
-    <nav id="desktop-nav">
-      <div class="logo">Dastan Mohammed</div>
-      <div>
-        <ul class="nav-link">
-          <li><a href="#Blog"> Blog </a></li>
-          <li><a href="#project"> Projects </a></li>
-          <li><a href="#contact"> Contact </a></li>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Dastan</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <!--
+          <li><a href="#">Home</a></li>
+        -->
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </nav>
-
-    <nav id="h-nav">
-      <div class="logo">Dastan Mohammed</div>
-
-      <div class="h-menu">
-        <div class="h-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Dastan<br />a</span> Web Developer
+          </h1>
+          <p class="description">
+            Welcome, I am 23 years old who is passionate to create a user-friendly, web design.
+            and develope them into real web pages with a creativity for creating beautiful,
+            responsive websites. I am an UI/UX designer, Web developer...
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <a href="Assets/cv.pdf" target="_blank">
+              <button  class="portfolio">Download my CV</button></a>
+                      </div>
         </div>
-
-        <div class="menu-links">
-          <li><a href="#Blog" onclick="toggleMenu()">Blog</a></li>
-          <li><a href="#project" onclick="toggleMenu()">Projets</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <div class="image">
+          <img src="assets/photo2.jpg" alt="profile" />
         </div>
       </div>
-    </nav>
-    
-    <script src="script,js"></script>
+    </section>
   </body>
 </html>
