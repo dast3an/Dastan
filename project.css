@@ -275,7 +275,7 @@ a {
   
     /*To make it responsive*/
 
-    @media (width < 600px) {
+    @media (width < 550px) {
         nav .checkbox {
           display: block;
         }
