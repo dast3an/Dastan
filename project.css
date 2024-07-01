@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 :root {
-    --max-width: 1200px;
+    --max-width: 1100px;
     --primary-color: #2F3645;
   --primary-color-dark: #000000;
   --secondary-color: #939185;
@@ -121,7 +121,7 @@
 .blog-box-text{
     display: flex;
     flex-direction: column;
-    padding: 30px 10px 20px 10px;
+    padding: 20px 10px 20px 10px;
 }
 
 .blog-box-text strong, .blog-box-text p{
